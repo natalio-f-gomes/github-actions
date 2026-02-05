@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Checkout repo code
         uses: actions/checkout@v6
-      - run: echo "Hello wordl" > file.txt
+      - run: echo "$(cat hello_world.txt)"
     
